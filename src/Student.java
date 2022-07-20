@@ -10,4 +10,8 @@ public class Student {
     public void zalogujSie(){
         System.out.println("moj nick" + nick);
     }
+
+    public static void infoUczelnia(){
+        System.out.println("uczelnia to agh");
+    }
 }

@@ -9,10 +9,6 @@ public class AutoTest {
         mercedes.jedz();
         mercedes.hamuj();
 
-        Auto audi = new Auto();
-        audi.rok = 2003;
-        audi.przebieg = 0;
-        audi.marka = "audi";
-        audi.model ="a6";
+        Auto audi = new Auto(mercedes.marka, mercedes.model, mercedes.rok, mercedes.przebieg);
         }
     }
